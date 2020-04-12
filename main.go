@@ -71,7 +71,7 @@ func Heading(heading atom.Atom, title string) *html.Node {
 const extensions = blackfriday.EXTENSION_NO_INTRA_EMPHASIS |
 	blackfriday.EXTENSION_TABLES |
 	blackfriday.EXTENSION_FENCED_CODE |
-	blackfriday.EXTENSION_AUTOLINK |
+	// blackfriday.EXTENSION_AUTOLINK |
 	blackfriday.EXTENSION_STRIKETHROUGH |
 	blackfriday.EXTENSION_SPACE_HEADERS |
 	blackfriday.EXTENSION_NO_EMPTY_LINE_BEFORE_BLOCK
